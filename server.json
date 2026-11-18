@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/simulador-reforma-tributaria-mcp",
+  "title": "Simulador da Reforma Tributária",
+  "description": "Brazil tax reform simulator for AI (CBS/IBS/IS) on Receita Federal's official open-source code.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/simulador-reforma-tributaria-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_simulador-reforma-tributaria"
+    }
+  ]
+}
